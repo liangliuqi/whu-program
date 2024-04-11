@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T02:41:07.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="R-2Uh9CwWrkK2XSuQUm9" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-11T03:14:40.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XajnhVmJO6rNUav5_GTE" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1708" dy="4044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2217" dy="4285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="出生" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-2450" width="2921" height="1160" as="geometry">
+          <mxGeometry x="60" y="-2450" width="2921" height="1160" as="geometry">
             <mxRectangle x="30" y="80" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -68,10 +68,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-13" value="家庭状况（互斥事件）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="461" y="42" width="739" height="498" as="geometry" />
+          <mxGeometry x="461" y="42" width="739" height="528" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-29" target="3xpTKajOcH90Fs0mHf4r-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-29" value="父母婚姻正常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="10" y="40" width="80" height="20" as="geometry" />
+          <mxGeometry x="10" y="68" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-30" target="MudpoDrrb5z5fQUpKkfL-44">
           <mxGeometry relative="1" as="geometry" />
@@ -79,35 +82,40 @@
         <mxCell id="MudpoDrrb5z5fQUpKkfL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-30" target="MudpoDrrb5z5fQUpKkfL-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="110" y="90" />
-              <mxPoint x="110" y="160" />
-              <mxPoint x="130" y="160" />
+              <mxPoint x="110" y="158" />
+              <mxPoint x="110" y="228" />
+              <mxPoint x="130" y="228" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-30" value="单亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="10" y="80" width="80" height="20" as="geometry" />
+          <mxGeometry x="10" y="148" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-34" value="母亲在世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="230" y="30" width="60" height="20" as="geometry" />
+          <mxGeometry x="235" y="98" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-40" value="母亲离世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="230" y="70" width="60" height="20" as="geometry" />
+          <mxGeometry x="230" y="138" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-41" value="父亲离世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="230" y="130" width="70" height="20" as="geometry" />
+          <mxGeometry x="230" y="198" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-42" target="3xpTKajOcH90Fs0mHf4r-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-42" value="孤儿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="10" y="248" width="80" height="20" as="geometry" />
+          <mxGeometry x="10" y="368" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MudpoDrrb5z5fQUpKkfL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-44" target="MudpoDrrb5z5fQUpKkfL-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-44" target="MudpoDrrb5z5fQUpKkfL-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="113" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-44" target="MudpoDrrb5z5fQUpKkfL-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-44" value="跟父亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="130" y="60" width="70" height="20" as="geometry" />
+          <mxGeometry x="130" y="128" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-47" target="MudpoDrrb5z5fQUpKkfL-41">
           <mxGeometry relative="1" as="geometry" />
@@ -116,10 +124,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-47" value="跟母亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="130" y="150" width="70" height="20" as="geometry" />
+          <mxGeometry x="130" y="218" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-50" value="父亲在世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
-          <mxGeometry x="230" y="180" width="75" height="20" as="geometry" />
+          <mxGeometry x="230" y="248" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-26" value="影响SC属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="499" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-27" value="SC+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="159" y="58" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-29" value="SC-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="170" y="370" width="109" height="32" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-11" value="父母对他关心程度" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="2058" y="37" width="589" height="508" as="geometry" />
@@ -128,28 +145,58 @@
           <mxGeometry x="1310" y="36" width="540" height="510" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;04bffa22-8ec7-496b-b34b-c7c8da4b1314&quot; style=&quot;background-color: initial;&quot;&gt;父亲是建筑师，母亲是老师&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="115" y="154" width="210" height="20" as="geometry" />
+          <mxGeometry x="110" y="248" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-2" target="3xpTKajOcH90Fs0mHf4r-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;父亲是公司老板，母亲家庭主妇&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="120" y="90" width="210" height="24" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-9" value="父亲母亲都是面馆老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="120" y="274" width="200" height="26" as="geometry" />
+          <mxGeometry x="120" y="154" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-16" target="3xpTKajOcH90Fs0mHf4r-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-16" value="脑力型职业" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="10" y="242" width="80" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-17" target="3xpTKajOcH90Fs0mHf4r-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-17" value="体力型职业" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="10" y="344" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-18" target="3xpTKajOcH90Fs0mHf4r-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-18" value="企业老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="15" y="84" width="70" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-19" target="3xpTKajOcH90Fs0mHf4r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-19" value="小生意老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="15" y="154" width="65" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-20" value="影响" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-20" value="影响SC,ST,EC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="10" y="24" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-31" value="父亲是网约车司机，母亲是保姆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="120" y="344" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="360" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="380" y="342" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="360" y="152" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="360" y="243" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-13" target="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry relative="1" as="geometry" />
