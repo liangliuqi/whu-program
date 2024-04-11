@@ -1,41 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T01:08:25.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.3" etag="hmjUuhQz1cGGXQwNR4q1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T02:13:12.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="I9dxq7vylzQPK_lgO0SJ" version="24.2.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1223" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="4045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Orgchart" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="710" height="290" as="geometry" />
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="出生" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="-1" y="-2380" width="830" height="450" as="geometry">
+            <mxRectangle x="30" y="80" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-12">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="260" y="50" width="180" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-13" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-14" edge="1">
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-1" value="出生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="10" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-9" target="MudpoDrrb5z5fQUpKkfL-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-14">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="40" y="180" width="180" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-15" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-16" edge="1">
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340.1724137931037" y="150.17241379310326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-9" value="出生地" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="120" y="50" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;地域数据库&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="10" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;他出生在武汉&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="100" y="60" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-16" value="&lt;span style=&quot;text-align: left;&quot;&gt;他出生在北京&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="100" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-9" source="MudpoDrrb5z5fQUpKkfL-17" target="MudpoDrrb5z5fQUpKkfL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Evan Valet" position="HR Director" location="Office 4" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-16">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-9-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="260" y="180" width="180" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-17" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="dNxyNK7c78bLwvsdeMH5-18" edge="1">
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-17" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="20" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-9" source="MudpoDrrb5z5fQUpKkfL-18" target="MudpoDrrb5z5fQUpKkfL-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="%name%&lt;br&gt;&lt;i style=&quot;color: gray&quot;&gt;%position%&lt;/i&gt;&lt;br&gt;&lt;a href=&quot;mailto:%email%&quot;&gt;Email&lt;/a&gt;" name="Alison Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-18">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-            <mxGeometry x="490" y="180" width="180" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-18" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="20" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-9" source="MudpoDrrb5z5fQUpKkfL-19" target="MudpoDrrb5z5fQUpKkfL-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="150" />
+              <mxPoint x="90" y="149" />
+              <mxPoint x="100" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-19" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="20" y="140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-22" value="他出生在长沙" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="100" y="140" width="80" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-27" value="......." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+          <mxGeometry x="20" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="120" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="150" />
+              <mxPoint x="120" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-13" value="家庭状况" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="461" y="42" width="349" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-29" value="父母婚姻正常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="10" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-30" target="MudpoDrrb5z5fQUpKkfL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-30" target="MudpoDrrb5z5fQUpKkfL-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="90" />
+              <mxPoint x="110" y="160" />
+              <mxPoint x="130" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-30" value="单亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="10" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-34" value="母亲在世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="230" y="30" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-40" value="母亲离世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="230" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-41" value="父亲离世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="230" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-42" value="孤儿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="10" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-44" target="MudpoDrrb5z5fQUpKkfL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-44" target="MudpoDrrb5z5fQUpKkfL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-44" value="跟父亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="130" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-47" target="MudpoDrrb5z5fQUpKkfL-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-13" source="MudpoDrrb5z5fQUpKkfL-47" target="MudpoDrrb5z5fQUpKkfL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-47" value="跟母亲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="130" y="150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-50" value="父亲在世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+          <mxGeometry x="230" y="180" width="75" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
