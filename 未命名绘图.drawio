@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T03:14:40.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XajnhVmJO6rNUav5_GTE" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-11T03:56:03.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="om-YTFfLATxt6XDeXL-A" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2217" dy="4285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2217" dy="4319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="出生" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="-2450" width="2921" height="1160" as="geometry">
+          <mxGeometry x="-90" y="-2450" width="3690" height="1860" as="geometry">
             <mxRectangle x="30" y="80" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -138,11 +138,28 @@
         <mxCell id="3xpTKajOcH90Fs0mHf4r-29" value="SC-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
           <mxGeometry x="170" y="370" width="109" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-11" target="3xpTKajOcH90Fs0mHf4r-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2354" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-11" value="父母对他关心程度" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="2058" y="37" width="589" height="508" as="geometry" />
+          <mxGeometry x="2058" y="37" width="592" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-57" value="影响SC和SO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
+          <mxGeometry x="12" y="38" width="398" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-58" value="父母经常带他去旅游" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
+          <mxGeometry x="41" y="283" width="118" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-59" value="父母工作很忙，没工夫管他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
+          <mxGeometry x="12" y="123" width="138" height="37" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-58" value="父母职业" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="1310" y="36" width="540" height="510" as="geometry" />
+          <mxGeometry x="1310" y="51" width="540" height="510" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;04bffa22-8ec7-496b-b34b-c7c8da4b1314&quot; style=&quot;background-color: initial;&quot;&gt;父亲是建筑师，母亲是老师&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="110" y="248" width="210" height="20" as="geometry" />
@@ -186,22 +203,31 @@
         <mxCell id="3xpTKajOcH90Fs0mHf4r-31" value="父亲是网约车司机，母亲是保姆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="120" y="344" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="360" y="90" width="80" height="30" as="geometry" />
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-36" value="SC+1 ST+1,EC+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="360" y="90" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="380" y="342" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="360" y="152" width="80" height="30" as="geometry" />
+          <mxGeometry x="360" y="152" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="360" y="243" width="80" height="30" as="geometry" />
+          <mxGeometry x="360" y="243" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-13" target="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-58" target="3xpTKajOcH90Fs0mHf4r-11">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-61" value="小学阶段" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="2770" y="42" width="830" height="1818" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-63" value="小学层次" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-61">
+          <mxGeometry x="50" y="57" width="700" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-63">
+          <mxGeometry x="10" y="36" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-36" target="3xpTKajOcH90Fs0mHf4r-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-22" value="人物属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
