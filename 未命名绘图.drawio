@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T07:10:39.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Qe0hSFyAhIbWkqt50XF5" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-12T08:18:55.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Hmcf2AqhDXMIDbSgEQ8P" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2990" dy="4621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="4216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="人生主框架" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="-3200" width="4740" height="4254" as="geometry">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#ADADAD;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="-3200" width="4740" height="4254" as="geometry">
             <mxRectangle x="30" y="80" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -26,7 +26,7 @@
         <mxCell id="MudpoDrrb5z5fQUpKkfL-9" value="出生地（互斥事件）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="120" y="70" width="220" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="MudpoDrrb5z5fQUpKkfL-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据LA属性确定&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
+        <mxCell id="MudpoDrrb5z5fQUpKkfL-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据LA属性确定&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BABABA;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
           <mxGeometry x="10" y="30" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;他出生在武汉&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-9">
@@ -134,7 +134,7 @@
         <mxCell id="MudpoDrrb5z5fQUpKkfL-50" value="父亲在世" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
           <mxGeometry x="250" y="248" width="75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-26" value="影响SC、SO属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-26" value="影响SC、SO属性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BDBDBD;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
           <mxGeometry x="170" y="29" width="380" height="31" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-27" value="SC+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-13">
@@ -153,84 +153,73 @@
         <mxCell id="3xpTKajOcH90Fs0mHf4r-11" value="父母对他关心程度" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="2058" y="70" width="592" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-57" value="影响SC和SO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-57" value="影响SC和SO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
           <mxGeometry x="12" y="38" width="398" height="37" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-58" value="父母经常带他去旅游" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
-          <mxGeometry x="12" y="213" width="118" height="27" as="geometry" />
+          <mxGeometry x="12" y="240" width="118" height="27" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-59" value="父母工作很忙，没工夫管他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
-          <mxGeometry x="12" y="123" width="138" height="37" as="geometry" />
+          <mxGeometry x="12" y="123" width="168" height="37" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-142" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-11">
-          <mxGeometry x="10" y="297" width="160" height="33" as="geometry" />
+          <mxGeometry x="1" y="360" width="160" height="33" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-58" value="父母职业" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="1310" y="70" width="660" height="1000" as="geometry" />
+          <mxGeometry x="1310" y="80" width="660" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-1" target="3xpTKajOcH90Fs0mHf4r-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;04bffa22-8ec7-496b-b34b-c7c8da4b1314&quot; style=&quot;background-color: initial;&quot;&gt;父亲是建筑师，母亲是老师&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="105" y="699" width="210" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-2" target="3xpTKajOcH90Fs0mHf4r-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;4fd8bd93-ea96-4848-851b-377dffebbbf2&quot; style=&quot;background-color: initial;&quot;&gt;父亲是公司老板，母亲家庭主妇&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;4fd8bd93-ea96-4848-851b-377dffebbbf2&quot; style=&quot;background-color: initial;&quot;&gt;父亲。。。母亲。。。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="120" y="90" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-9" target="3xpTKajOcH90Fs0mHf4r-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-9" value="父亲母亲都是面馆老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="115" y="245" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-16" target="3xpTKajOcH90Fs0mHf4r-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-16" value="脑力型职业" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="5" y="693" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-17" target="3xpTKajOcH90Fs0mHf4r-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-17" value="体力型职业" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="10" y="427.5" width="80" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-18" target="3xpTKajOcH90Fs0mHf4r-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-18" value="企业老板&lt;div&gt;高薪职业&lt;/div&gt;&lt;div&gt;父母年薪1亿&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="15" y="84" width="95" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" target="3xpTKajOcH90Fs0mHf4r-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="258" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-19" value="生意老板&lt;div&gt;年薪1000w&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="10" y="247" width="100" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-20" value="影响SC,ST,EC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-20" value="影响SC,ST,EC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B0B0B0;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="10" y="24" width="480" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-31" value="父亲是网约车司机，母亲是保姆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="120" y="427.5" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-36" value="SC+1 ST+1,EC+" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
           <mxGeometry x="360" y="90" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="380" y="425.5" width="110" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="355" y="243" width="120" height="30" as="geometry" />
+          <mxGeometry x="340" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-211" target="3xpTKajOcH90Fs0mHf4r-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-211" value="高薪工作事件库" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="30" y="60" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;4fd8bd93-ea96-4848-851b-377dffebbbf2&quot; style=&quot;background-color: initial;&quot;&gt;父亲是公司老板，母亲家庭主妇&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-211">
+          <mxGeometry x="14" y="80" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-18" value="&lt;div data-sider-select-id=&quot;832223f9-247b-4001-8752-e9d3532ddd36&quot;&gt;父母年薪1亿以上&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A3A3A3;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-211">
+          <mxGeometry x="14" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3xpTKajOcH90Fs0mHf4r-211" source="3xpTKajOcH90Fs0mHf4r-2" target="3xpTKajOcH90Fs0mHf4r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-215" value="中等薪资事业库" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="25" y="245" width="225" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-216" value="年薪千万级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-215">
+          <mxGeometry x="9" y="35" width="141" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-19" value="生意老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-215">
+          <mxGeometry x="9" y="73.5" width="117" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span data-sider-select-id=&quot;04bffa22-8ec7-496b-b34b-c7c8da4b1314&quot; style=&quot;background-color: initial;&quot;&gt;父亲是建筑师，母亲是老师&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-215">
+          <mxGeometry x="7.5" y="115" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-9" value="父亲母亲都是面馆老板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-215">
+          <mxGeometry x="7.5" y="145" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-214" value="低薪职业事件库" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
+          <mxGeometry x="20" y="520" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-31" value="父亲是网约车司机，母亲是保姆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-214">
+          <mxGeometry y="45" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MudpoDrrb5z5fQUpKkfL-58">
-          <mxGeometry x="355" y="694" width="120" height="30" as="geometry" />
+          <mxGeometry x="340" y="355" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.155;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-31" target="3xpTKajOcH90Fs0mHf4r-54">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MudpoDrrb5z5fQUpKkfL-58" source="3xpTKajOcH90Fs0mHf4r-19" target="3xpTKajOcH90Fs0mHf4r-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MudpoDrrb5z5fQUpKkfL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="MudpoDrrb5z5fQUpKkfL-13" target="MudpoDrrb5z5fQUpKkfL-58">
@@ -241,46 +230,96 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-61" value="小学阶段" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="2710" y="70" width="830" height="1000" as="geometry" />
+          <mxGeometry x="2710" y="70" width="1900" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-63" value="小学层次" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-61">
           <mxGeometry x="50" y="57" width="710" height="203" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-65" value="普通小学" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-63">
-          <mxGeometry x="10" y="89.5" width="180" height="24" as="geometry" />
+          <mxGeometry x="10" y="113" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-130" value="贵族小学" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-63">
-          <mxGeometry x="10" y="45" width="180" height="29" as="geometry" />
+          <mxGeometry x="10" y="73" width="180" height="29" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-137" value="重点小学" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-63">
-          <mxGeometry x="10" y="125" width="180" height="35" as="geometry" />
+          <mxGeometry x="10" y="151" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-207" value="受ST影响" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5B5B5;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-63">
+          <mxGeometry x="10" y="33" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-132" value="随机事件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-61">
-          <mxGeometry x="40" y="288" width="720" height="522" as="geometry" />
+          <mxGeometry x="40" y="288" width="720" height="662" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3xpTKajOcH90Fs0mHf4r-132" source="3xpTKajOcH90Fs0mHf4r-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="160.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-148" value="父母给你报了兴趣班" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
           <mxGeometry x="20" y="140" width="230" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-149" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
-          <mxGeometry x="280" y="40" width="20" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3xpTKajOcH90Fs0mHf4r-132" source="3xpTKajOcH90Fs0mHf4r-148" target="3xpTKajOcH90Fs0mHf4r-149">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-156" value="跆拳道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
-          <mxGeometry x="320" y="30" width="80" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-157" value="书法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
-          <mxGeometry x="320" y="110" width="100" height="20" as="geometry" />
+          <mxGeometry x="320" y="110" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-158" value="钢琴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
-          <mxGeometry x="320" y="153" width="70" height="28" as="geometry" />
+          <mxGeometry x="320" y="153" width="100" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-208" value="兴趣班事件库" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
+          <mxGeometry x="300" y="30" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-156" value="跆拳道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-208">
+          <mxGeometry x="20" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-210" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
+          <mxGeometry x="20" y="362" width="230" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-221" value="受HO影响" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5B5B5;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-132">
+          <mxGeometry x="20" y="42" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-36" target="3xpTKajOcH90Fs0mHf4r-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-141" value="工作" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="206" y="2440" width="4004" height="1500" as="geometry" />
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-141" value="工作（同步发生）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="206" y="2440" width="4464" height="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-186" value="事业发展阶段：" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-141">
+          <mxGeometry x="40" y="80" width="640" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-202" value="由职业属性OP决定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-186">
+          <mxGeometry x="14" y="36" width="466" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-203" value="运动员" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-186">
+          <mxGeometry x="14" y="96" width="466" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-204" value="宠物医生" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-186">
+          <mxGeometry x="14" y="270" width="466" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-187" value="家庭类事件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-141">
+          <mxGeometry x="764" y="80" width="636" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-205" value="由家庭状况决定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-187">
+          <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-188" value="人际关系类事件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-141">
+          <mxGeometry x="1514" y="80" width="496" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-206" value="由SO决定，并且影响SO 属性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-188">
+          <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-189" value="社会实践类事件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-141">
+          <mxGeometry x="2154" y="80" width="326" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-194" value="参与公益事业和社区服务。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-189">
+          <mxGeometry x="10" y="50" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-190" value="个人成长类事件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-141">
+          <mxGeometry x="2564" y="80" width="396" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-192" value="参加化妆培训课" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-190">
+          <mxGeometry x="10" y="96" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-193" value="参加茶道课" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-190">
+          <mxGeometry x="10" y="150" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-70">
           <mxGeometry relative="1" as="geometry">
@@ -540,7 +579,7 @@
           <mxGeometry x="640" y="320" width="480" height="280" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-180" value="参加社团" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-140">
-          <mxGeometry x="640" y="630" width="480" height="220" as="geometry" />
+          <mxGeometry x="645" y="640" width="480" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-182" value="由HO决定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3xpTKajOcH90Fs0mHf4r-180">
           <mxGeometry x="15" y="41" width="405" height="29" as="geometry" />
