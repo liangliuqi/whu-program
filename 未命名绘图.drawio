@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T02:44:40.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="W1ravtCxxyO2uwHiv3vq" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T07:15:03.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PWiEoHwatqg-Zq_YnMqE" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="3414" dy="5504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3040" dy="5495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-11" value="父母对他关心程度" style="swimlane;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-          <mxGeometry x="2066" y="50" width="604" height="1040" as="geometry" />
+          <mxGeometry x="2016" y="70" width="604" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-57" value="影响SC和SO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" parent="3xpTKajOcH90Fs0mHf4r-11" vertex="1">
           <mxGeometry x="12" y="38" width="398" height="37" as="geometry" />
@@ -486,7 +486,13 @@
           <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-126" target="3xpTKajOcH90Fs0mHf4r-122" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1800" />
+              <mxPoint x="1080" y="1700" />
+              <mxPoint x="1636" y="1700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-233" value="公共事件" style="swimlane;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
           <mxGeometry x="160" y="4000" width="3891" height="1360" as="geometry" />
@@ -662,7 +668,7 @@
         <mxCell id="3xpTKajOcH90Fs0mHf4r-22" value="人物属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="-3020" width="380" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-25" value="&lt;div data-sider-select-id=&quot;90c10624-90be-460b-9f44-e01162394614&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;随着事件发生改变的&lt;/div&gt;&lt;div&gt;const int EC = 2;&amp;nbsp; // 经济状况*&lt;/div&gt;&lt;div&gt;const int ST = 3;&amp;nbsp; // 学习能力*&lt;/div&gt;&lt;div&gt;const int SO = 4;&amp;nbsp; // 社交能力*&lt;/div&gt;&lt;div&gt;const int SC = 5;&amp;nbsp; // 自信程度*&lt;/div&gt;&lt;div&gt;const int HL = 6;&amp;nbsp; // 健康程度*&lt;/div&gt;&lt;div&gt;const int AG = 7;&amp;nbsp; // 年龄，自增*&lt;/div&gt;&lt;div&gt;const int LK = 10; // 外貌*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;定好的&lt;/div&gt;&lt;div&gt;&lt;div data-sider-select-id=&quot;90c10624-90be-460b-9f44-e01162394614&quot;&gt;const int GD = 0;&amp;nbsp; // 初始性别,1为男性,0为女性&lt;/div&gt;&lt;div&gt;const int BD = 1;&amp;nbsp; // 出生日期&lt;/div&gt;&lt;/div&gt;&lt;div&gt;const int OP = 8;&amp;nbsp; // 职业，列表&lt;/div&gt;&lt;div&gt;const int HO = 9;&amp;nbsp; // 兴趣爱好，列表&lt;/div&gt;&lt;div&gt;const int LA = 11; // 地域，列表&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3xpTKajOcH90Fs0mHf4r-22" vertex="1">
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-25" value="&lt;div data-sider-select-id=&quot;90c10624-90be-460b-9f44-e01162394614&quot;&gt;&lt;br data-sider-select-id=&quot;356d50c8-6d20-48e0-8721-dba8e3bd43eb&quot;&gt;&lt;/div&gt;&lt;div&gt;随着事件发生改变的&lt;/div&gt;&lt;div&gt;const int EC = 2;&amp;nbsp; // 经济状况*&lt;/div&gt;&lt;div&gt;const int ST = 3;&amp;nbsp; // 学习能力*&lt;/div&gt;&lt;div&gt;const int SO = 4;&amp;nbsp; // 社交能力*&lt;/div&gt;&lt;div&gt;const int SC = 5;&amp;nbsp; // 自信程度*&lt;/div&gt;&lt;div&gt;const int HL = 6;&amp;nbsp; // 健康程度*&lt;/div&gt;&lt;div&gt;const int AG = 7;&amp;nbsp; // 年龄，自增*&lt;/div&gt;&lt;div&gt;const int LK = 10; // 外貌*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;定好的&lt;/div&gt;&lt;div&gt;&lt;div data-sider-select-id=&quot;90c10624-90be-460b-9f44-e01162394614&quot;&gt;const int GD = 0;&amp;nbsp; // 初始性别,1为男性,0为女性&lt;/div&gt;&lt;div&gt;const int BD = 1;&amp;nbsp; // 出生日期&lt;/div&gt;&lt;/div&gt;&lt;div&gt;const int OP = 8;&amp;nbsp; // 职业，列表&lt;/div&gt;&lt;div&gt;const int HO = 9;&amp;nbsp; // 兴趣爱好，列表&lt;/div&gt;&lt;div&gt;const int LA = 11; // 地域，列表&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3xpTKajOcH90Fs0mHf4r-22" vertex="1">
           <mxGeometry y="30" width="380" height="310" as="geometry" />
         </mxCell>
       </root>
