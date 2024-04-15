@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T01:11:17.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2zxUPZSkwb2F0u0GNHC6" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T01:14:38.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9JWBmHx8y8W8R2Fvt7ld" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="3747" dy="5651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -484,17 +484,17 @@
         <mxCell id="3xpTKajOcH90Fs0mHf4r-206" value="由SO决定，并且影响SO 属性" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" parent="3xpTKajOcH90Fs0mHf4r-188" vertex="1">
           <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-222" value="家庭类事件" style="swimlane;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-          <mxGeometry x="160" y="4110" width="820" height="1100" as="geometry" />
-        </mxCell>
-        <mxCell id="3xpTKajOcH90Fs0mHf4r-223" value="由家庭状况决定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" parent="3xpTKajOcH90Fs0mHf4r-222" vertex="1">
-          <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
-        </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-11" source="3xpTKajOcH90Fs0mHf4r-126" target="3xpTKajOcH90Fs0mHf4r-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-233" value="公共事件" style="swimlane;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
-          <mxGeometry x="69" y="4000" width="3891" height="1360" as="geometry" />
+          <mxGeometry x="160" y="4000" width="3891" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-222" value="家庭类事件" style="swimlane;whiteSpace=wrap;html=1;" parent="3xpTKajOcH90Fs0mHf4r-233" vertex="1">
+          <mxGeometry x="138" y="110" width="820" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="3xpTKajOcH90Fs0mHf4r-223" value="由家庭状况决定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6D6D6;" parent="3xpTKajOcH90Fs0mHf4r-222" vertex="1">
+          <mxGeometry x="10" y="43" width="466" height="34" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-140" value="大学" style="swimlane;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
           <mxGeometry x="2620" y="1350" width="2280" height="880" as="geometry" />
@@ -644,6 +644,16 @@
         </mxCell>
         <mxCell id="AwiGgJl_Vhv05T7dN4dU-8" value="工作6001" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="30" y="3010" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="4670" as="sourcePoint" />
+            <mxPoint x="160.00000000000045" y="4670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-11" value="10000-20000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="30" y="4580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3xpTKajOcH90Fs0mHf4r-22" value="人物属性" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="-3020" width="380" height="340" as="geometry" />
