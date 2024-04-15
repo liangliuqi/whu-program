@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T02:43:02.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BK-Uk-PtmWS1YSo3d1Ud" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T02:44:40.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="W1ravtCxxyO2uwHiv3vq" version="24.2.3" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="3414" dy="5504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -631,10 +631,10 @@
         <mxCell id="AwiGgJl_Vhv05T7dN4dU-4" value="初中5001-7000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="10" y="1600" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AwiGgJl_Vhv05T7dN4dU-5" value="高中7000-9000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-5" value="高中7001-9000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="1250" y="1755" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AwiGgJl_Vhv05T7dN4dU-6" value="大学9000-11000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-6" value="大学9001-11000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="2430" y="1740" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwiGgJl_Vhv05T7dN4dU-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
@@ -643,7 +643,7 @@
             <mxPoint x="160" y="3070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AwiGgJl_Vhv05T7dN4dU-8" value="工作11000-15000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-8" value="工作11001-15000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="30" y="3010" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwiGgJl_Vhv05T7dN4dU-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11">
@@ -653,7 +653,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AwiGgJl_Vhv05T7dN4dU-11" value="15000-20000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="AwiGgJl_Vhv05T7dN4dU-11" value="15001-20000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="30" y="4580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AwiGgJl_Vhv05T7dN4dU-25" value="&lt;br data-sider-select-id=&quot;3df7a1b0-ef6d-452d-a78c-e3e8d3db079a&quot;&gt;每个职业分200" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
