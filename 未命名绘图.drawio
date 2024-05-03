@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T14:18:28.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jku8kYc_xCRsi5j6F0Fe" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-05-03T01:32:36.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kpMD8lx0Tp2Lw2t2c9Lo" version="24.3.1" type="github" pages="7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,7 +290,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kTH9O2sLgtLIZWyrixBC" name="第 5 页">
-    <mxGraphModel dx="651" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,8 +315,10 @@
             <mxPoint x="180" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P6gZyh_JRId3LIHTe3sR-11" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;labelBorderColor=none;" parent="P6gZyh_JRId3LIHTe3sR-10" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="P6gZyh_JRId3LIHTe3sR-11" value="真实标签" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;labelBorderColor=none;" parent="P6gZyh_JRId3LIHTe3sR-10" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="P6gZyh_JRId3LIHTe3sR-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;labelBorderColor=none;" parent="1" source="P6gZyh_JRId3LIHTe3sR-12" target="P6gZyh_JRId3LIHTe3sR-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -324,14 +326,52 @@
         <mxCell id="P6gZyh_JRId3LIHTe3sR-12" value="Target Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="410" y="150" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P6gZyh_JRId3LIHTe3sR-14" value="预测数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="295" y="148" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="P6gZyh_JRId3LIHTe3sR-18" value="预测" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="270" width="60" height="30" as="geometry" />
+        <mxCell id="P6gZyh_JRId3LIHTe3sR-14" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="310" y="148" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P6gZyh_JRId3LIHTe3sR-19" value="样本x是否在 训练集中？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6gZyh_JRId3LIHTe3sR-18" value="预测向量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;labelBorderColor=none;shadow=1;fillColor=default;fillStyle=auto;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="300" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;labelBorderColor=none;" edge="1" parent="1" source="ujDUFf5KuffsrPU00sCG-3" target="ujDUFf5KuffsrPU00sCG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-3" value="数据,标签" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="590" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-4" value="" style="group;fontSize=16;labelBorderColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="780" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-5" value="攻击模型" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=16;labelBorderColor=none;" vertex="1" parent="ujDUFf5KuffsrPU00sCG-4">
+          <mxGeometry x="20" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-6" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png;fontSize=16;labelBorderColor=none;" vertex="1" parent="ujDUFf5KuffsrPU00sCG-4">
+          <mxGeometry x="20" y="7.5" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;labelBorderColor=none;" edge="1" parent="1" source="ujDUFf5KuffsrPU00sCG-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="670" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-8" value="真实标签" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;labelBorderColor=none;" connectable="0" vertex="1" parent="ujDUFf5KuffsrPU00sCG-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-10" value="Target Model" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="525" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-11" value="输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="598" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-12" value="样本x是否在 训练集中？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="840" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujDUFf5KuffsrPU00sCG-13" value="预测向量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;labelBorderColor=none;shadow=1;fillColor=default;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1000" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
